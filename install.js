@@ -3,7 +3,7 @@ module.exports = {
     {
       method: "shell.run",
       params: {
-        message: "echo app directory assumed to be 'app'"
+        message: "git clone https://github.com/TheAwaken1/StreamSnap.git app",
       }
     },
     {
