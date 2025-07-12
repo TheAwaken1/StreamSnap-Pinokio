@@ -2,10 +2,10 @@ const path = require('path')
 module.exports = {
   version: "3.7",
   title: "StreamSnap",
-  description: "",
+  description: "A powerful, AI-powered Gradio application for downloading, transcribing, and analyzing YouTube videos and audio.",
   icon: "icon.png",
   menu: async (kernel, info) => {
-    let installed = info.exists("env")
+    let installed = info.exists("app/env")
     let running = {
       install: info.running("install.js"),
       start: info.running("start.js"),
